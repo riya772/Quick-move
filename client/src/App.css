@@ -1,0 +1,52 @@
+/* --- Dark Mode Styles --- */
+body {
+  background-color:black;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, footer {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+a {
+  color: #90caf9;
+}
+
+input, select {
+  background-color: #2c2c2c;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-section img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 30px; /* ✅ This adds space between image and text */
+}
+
+.about-text {
+  max-width: 600px;
+}
